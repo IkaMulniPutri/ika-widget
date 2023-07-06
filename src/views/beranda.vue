@@ -59,6 +59,7 @@
   .paragraf {
     color:  darkred;
     text-align: center;
+    font-weight: bold;
   }
   
   .button-container {
@@ -74,6 +75,7 @@
     padding: 10px 20px;
     background-color: rgb(136, 44, 44);
     color: white;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     margin-right: 10px;

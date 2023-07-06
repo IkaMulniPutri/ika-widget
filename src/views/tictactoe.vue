@@ -166,6 +166,7 @@ button {
   padding: 10px 20px;
   background-color: #1417bd;
   color: #fff;
+  font-weight: bold;
   border: none;
   border-radius: 20px;
   font-size: 18px;

@@ -1,10 +1,10 @@
 <template>
   <div class="weather-widget">
     <h2 class="widget-title">Weather Widget</h2>
-    <div class="location-input">
+    <div class="location-input1">
       <label for="location"><p class="loc">Enter Location:</p></label>
       <input type="text" id="location" v-model="location" />
-      <button class="tombol3" @click="fetchWeatherData">Get Weather</button>
+      <button @click="fetchWeatherData">Get Weather</button>
     </div>
     <div v-if="weatherData" class="weather-data">
       <p class="location">Location: {{ weatherData.name }}</p>
@@ -62,13 +62,16 @@ export default {
 .widget-title {
   margin-top: 0;
   color: white;
+  font-weight: bold;
 }
 .loc {
   margin-right: 10px;
   color: white;
+  font-weight: bold;
 }
 .loading {
   color: white;
+  font-weight: bold;
 }
 .custom-input {
   border: 2px solid #ccc;
@@ -86,10 +89,48 @@ export default {
   outline: none;
   border-color: #0066ff;
 }
+
+.location-input1 {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.location-input1 label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.location-input1 input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.location-input1 button {
+  padding: 10px 20px;
+  background-color: rgb(110, 110, 110);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.location-input1 button:hover {
+  background-color: rgb(88, 88, 88);
+}
 .tombol3 {
   padding: 10px 20px;
   background-color: rgb(110, 110, 110);
   color: white;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   margin-right: 10px;
@@ -100,11 +141,7 @@ export default {
 .tombol3:hover {
   background-color: rgb(88, 88, 88);
 }
-.location-input {
-  margin-bottom: 10px;
-  padding: 20px;
-  color: white;
-}
+
 .weather-data {
   margin-top: 10px;
 }
@@ -116,6 +153,7 @@ export default {
 .temperature {
   font-size: 24px;
   color: red;
+  font-weight: bold;
 }
 .description {
   font-size: 16px;

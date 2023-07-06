@@ -81,6 +81,7 @@ export default {
   font-size: 18px;
   background-color: rgb(0, 0, 0);
   color: #fff;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;

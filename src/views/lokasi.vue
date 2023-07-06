@@ -92,6 +92,7 @@ export default {
   padding: 10px 20px;
   background-color: rgb(44, 53, 136);
   color: white;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   margin-right: 10px;
@@ -106,6 +107,7 @@ export default {
   padding: 10px 20px;
   background-color: rgb(44, 53, 136);
   color: white;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   margin-right: 10px;
@@ -148,24 +150,6 @@ export default {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-}
-.location-input button {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.location-input button:hover {
-  background-color: #45a049;
-}
-.location-input button:disabled {
-  background-color: #ccc;
-  color: #999;
-  cursor: not-allowed;
 }
 .location-details {
   margin-top: 10px;

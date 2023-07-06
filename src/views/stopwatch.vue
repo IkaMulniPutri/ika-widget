@@ -75,6 +75,7 @@ export default {
   gap: 10px;
   border-radius: 20px;
   background-color: #001cb8;
+  font-weight: bold;
 }
 .judul {
   color: white;
@@ -113,6 +114,7 @@ export default {
   padding: 10px 20px;
   background-color: #001cb8;
   color: #fff;
+  font-weight: bold;
   border: none;
   border-radius: 20px;
   font-size: 18px;
